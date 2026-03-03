@@ -1,0 +1,250 @@
+.intro-card {
+    display: grid;
+    grid-template-columns: 150px 1fr 250px;
+    gap: 10px 20px;
+    padding: 30px;
+    background-color: #8E8E52;
+    border-radius: 10px;
+    align-items: start;
+    width:900px;
+}
+
+.contact-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 30px;
+    background-color: #8E8E52;
+    border-radius: 10px;
+    align-items: start;
+}
+
+.cat-card {
+    padding: 8px;
+    background-color:#751927;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'La belle aurore';
+    font-size: 40px;
+    color:#8E8E52;
+    width:700px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.top-row {
+    grid-column: 1 / 3;
+    margin-bottom: 10px;
+    font-family: 'La Belle Aurore';
+}
+
+.me {
+    grid-column: 3;
+    grid-row: 1 / 7;
+    width: 100%;
+    border-radius: 10px;
+    padding-top:10%
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.value{
+  font-family: 'La Belle Aurore';
+  font-size: 30px;
+}
+
+.label{
+  font-size:30px;
+}
+
+#designportfolio {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#designportfolio img {
+  height: 400px; 
+  object-fit: cover;
+}
+
+.la-belle-aurore-regular {
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #8E8E52; /* your olive */
+    flex-wrap: nowrap;
+}
+
+.nav-title {
+    font-family: 'La Belle Aurore';
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    font-family: 'Outfit', sans-serif; /* your original font */
+}
+
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* hamburger */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 4px 0;
+}
+
+/* MOBILE ONLY */
+@media (max-width: 768px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #8E8E52;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+body {
+    background-image: url("bg.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    font-family: 'Outfit',sans-serif;
+}
+
+.desintro{
+  font-family:'Bebas Neue';
+  padding-left: 2%;
+  color: #751927;
+  font-size: 60px;
+}
+
+#changeBtn{
+  background-color: white;
+  color: #D1001F;
+  padding: 12px 25px;
+  border-radius: 50px;
+}
+
+.hobby1-card{
+    padding: 8px;
+    background-color:#751927;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'La belle aurore';
+    font-size: 20px;
+    color:#8E8E52;
+    width:700px;
+
+}
+
+.hobby2-card{
+    padding: 8px;
+    background-color:#751927;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'La belle aurore';
+    font-size: 20px;
+    color:#8E8E52;
+    width:700px;
+
+}
+
+.hobby3-card{
+    padding: 8px;
+    background-color:#751927;
+    border-radius: 10px;
+    text-align: center;
+    font-family:'La belle aurore';
+    font-size: 20px;
+    color:#8E8E52;
+    width:700px;
+
+}
+
+.clickme{
+   padding: 8px;
+   background-color:#FFB6C1;
+   border-radius: 10px;
+   text-align: left;
+   font-family:'La belle aurore';
+   font-size: 20px;
+   color:#751927;
+   width:500px;
+}
+
+.pics{
+  width:200px;
+}
+
+a{
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+a:hover{
+  opacity: 0.6;
+}
+
+.table-container{
+  background-color: #751927;
+  color:#8E8E52;
+  padding:2%;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  border-radius: 30px;
+}
+
+.tablehead{
+  font-family: 'la belle aurore';
+  font-size:50px;
+  color: #751927;
+}
